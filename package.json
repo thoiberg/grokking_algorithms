@@ -1,0 +1,14 @@
+{
+  "name": "grokking_algorithms",
+  "version": "1.0.0",
+  "description": "code exercises from the Grokking Algorithms book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
