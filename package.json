@@ -4,11 +4,14 @@
   "description": "code exercises from the Grokking Algorithms book",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "execute": "ts-node"
   },
-  "author": "",
+  "author": "Tim Hoiberg",
   "license": "ISC",
   "devDependencies": {
+    "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
   }
 }
