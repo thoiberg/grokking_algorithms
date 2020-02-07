@@ -1,6 +1,4 @@
-interface HashTable<T> {
-  [key: string]: T
-}
+import { HashTable } from "./01_price_of_groceries"
 
 const voted: HashTable<boolean> = {}
 
