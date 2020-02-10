@@ -1,6 +1,4 @@
-interface HashTable<T> {
-  [key: string]: T
-}
+import HashTable from "../common/hash_table"
 
 const nodeGraph: HashTable<HashTable<number>> = {
   start: {

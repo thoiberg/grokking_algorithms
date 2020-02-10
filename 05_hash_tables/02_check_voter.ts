@@ -1,4 +1,4 @@
-import { HashTable } from "./01_price_of_groceries"
+import HashTable from "../common/hash_table"
 
 const voted: HashTable<boolean> = {}
 
